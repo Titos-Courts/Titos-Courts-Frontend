@@ -1,5 +1,5 @@
 import RootLayout from '../layout'
-import Footer from './Footer'
+// import Footer from './Footer'
 import Header from './Header'
 
 export default function CommonWrapper({
@@ -11,7 +11,7 @@ export default function CommonWrapper({
     <RootLayout>
       <Header />
       <main>{children}</main>
-      <Footer />
+      {/* <Footer /> */}
     </RootLayout>
   )
 }
